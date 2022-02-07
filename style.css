@@ -1,0 +1,33 @@
+*{
+	color: rgb( 103, 44, 70);
+	background-color: beige;
+}
+h2{
+	color: blue;
+}
+.major-heading{
+	color: green !important;
+}
+#bio-intro {
+	background-color: yellow;
+}
+h3, h4{
+	background-color: orange;
+}
+p.Example {
+	font-family: Garamond;
+	background-color: blue;
+}
+:hover{
+	background-image: url("./large.jpeg");
+}
+p{
+	width: 500px;
+	min-width: 100%;
+	border-style: double;
+	padding: 10px, 20px, 30px, 40px;
+	border-radius: 200px;
+}
+a:hover{
+	color: red;
+}
