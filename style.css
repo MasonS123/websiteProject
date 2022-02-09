@@ -2,6 +2,12 @@
 	color: rgb( 103, 44, 70);
 	background-color: beige;
 }
+#title-text{
+    text-align: center;
+    font-size: 70px;
+    font-family: cursive;
+    
+}
 h2{
 	color: blue;
 }
