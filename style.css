@@ -2,11 +2,34 @@
 	color: rgb( 103, 44, 70);
 	background-color: beige;
 }
+
 #title-text{
     text-align: center;
     font-size: 70px;
     font-family: cursive;
-    
+    border-style: none;    
+}
+#main-nav li {
+	display: inline-block;
+	font-size: 20px;
+    color: white;
+	margin: 40px;
+	margin-top:0px;
+	margin-bottom: 0px;
+}
+marque#moving-header {
+    transform: translateX(100%);
+    font-size: 70px;
+    font-family: monospace;
+}
+#main-nav {
+	position: sticky;
+	opacity: 90%;
+	top: 0px;
+	text-align: center;
+	background-color:#30370C;
+	padding-top: 10px;
+	padding-bottom: 10px;
 }
 h2{
 	color: blue;
@@ -26,6 +49,15 @@ p.Example {
 }
 :hover{
 	background-image: url("./large.jpeg");
+}
+#poker-Chips {
+    width: 300px;
+    height: 200px;
+}
+#poker-Hand {
+    float: right;
+    width: 300px;
+    height: 200px;
 }
 p{
 	width: 500px;
