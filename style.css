@@ -1,71 +1,174 @@
 *{
-	color: rgb( 103, 44, 70);
+	color: rgb(103, 44, 70);
 	background-color: beige;
+}
+.main-title{
+    padding: 0;
+    margin-bottom: 0;
 }
 
 #title-text{
+    width: 33%;
     text-align: center;
     font-size: 70px;
     font-family: cursive;
-    border-style: none;    
+    border-style: none;
+    padding-top: 0;
+    margin-top: 0;
 }
+marque#moving-header {
+    font-size: 70px;
+    font-family: monospace;
+}
+button {
+	display: inline-block;
+	background-color: forestgreen;
+	color: white;
+	padding: 10px;
+	
+	font-family: "Garamond";
+	font-size: 30px;
+	
+	border: none;
+}
+.button {
+  transition-duration: 0.4s;
+}
+
+button:hover {
+	background-color: #196719;
+}
+
+#main-nav {
+	position: sticky;
+
+	opacity: 100%;
+	top: 0px;
+    
+	text-align: center;
+	background-color:#30370C;
+	padding-top: 10px;
+	padding-bottom: 10px;
+    border-radius: 50px;
+}
+
 #main-nav li {
+  
 	display: inline-block;
 	font-size: 20px;
     color: white;
 	margin: 40px;
 	margin-top:0px;
 	margin-bottom: 0px;
+    
 }
-marque#moving-header {
-    transform: translateX(100%);
-    font-size: 70px;
-    font-family: monospace;
+#main-nav li a {
+	color: white;
+    background-color:#30370C; 
+	text-decoration: none;
 }
-#main-nav {
-	position: sticky;
-	opacity: 90%;
-	top: 0px;
-	text-align: center;
-	background-color:#30370C;
-	padding-top: 10px;
-	padding-bottom: 10px;
+#web-link-text{
+    margin-top: 0;
+    border-style: none;    
+    font-size: 100px;
+    color: lawngreen;
+    font-family: "Copperplate",fantasy;
 }
-h2{
-	color: blue;
+#web-link-text:hover{
+    color: red;
+    }
+
+p#web-link{
+    
 }
-.major-heading{
-	color: green !important;
+th, td{
+    padding-left: 100px;
+     padding-right: 100px;
+    border: 1px solid black;
 }
-#bio-intro {
-	background-color: yellow;
+h1{
+    text-align: center;
 }
-h3, h4{
-	background-color: orange;
+table, tr, th, td{
+    font-size: 20px;
+    text-align: center;
+    margin-left: 150px;
+    
+    border: 1px solid black;
 }
-p.Example {
-	font-family: Garamond;
-	background-color: blue;
+h3{
+	   margin-left: 25px;
 }
-:hover{
-	background-image: url("./large.jpeg");
+h6{
+    margin-left: 65px;
+}
+span{
+
+}
+div#Link-to-game{
+    margin-bottom: 0px;
 }
 #poker-Chips {
-    width: 300px;
+    float: left;
+    width: 33%;
     height: 200px;
 }
 #poker-Hand {
     float: right;
-    width: 300px;
+    width: 33%;
     height: 200px;
+}
+#Casino-Ad{
+    width: 20%;
+    height: 532px;
+    float: right;
+}
+#Russian-Ad{
+    width: 40%;
+    height: 532px;
+    float: left;
+}
+#Another-Ad{
+    width: 40%;
+    height: 532px;
+}
+p#rules{
+    font-size: 10px;
 }
 p{
 	width: 500px;
 	min-width: 100%;
-	border-style: double;
+	border-style: solid;
 	padding: 10px, 20px, 30px, 40px;
-	border-radius: 200px;
+	border-radius: 50;
+    font-size: 20px;
+    
+}
+footer{
+    text-align: center;
+}
+#footer li{
+    font-size: 10px;
+    top: 0px;
+    display: inline;
+}
+#TOS{
+    text-align: center;
+    border-style: none;
+   
+    font-size: 12px;
+}
+p.tosp{
+    font-size: 20px;
+    border-style: none;
+    margin-left: 50px;
+    background-color: white;
 }
 a:hover{
 	color: red;
+}
+
+.tos{
+    color: black;
+     background-color: white;
 }
