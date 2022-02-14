@@ -158,6 +158,14 @@ footer{
    
     font-size: 12px;
 }
+#bounce{
+   position: absolute;
+  
+}
+marquee{
+     background-color: transparent;
+    border-style: none;
+}
 p.tosp{
     font-size: 20px;
     border-style: none;
