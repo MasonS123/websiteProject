@@ -31,9 +31,6 @@ button {
 	
 	border: none;
 }
-.button {
-  transition-duration: 0.4s;
-}
 
 button:hover {
 	background-color: #196719;
@@ -78,9 +75,7 @@ button:hover {
     color: red;
     }
 
-p#web-link{
-    
-}
+
 th, td{
     padding-left: 100px;
      padding-right: 100px;
@@ -88,6 +83,8 @@ th, td{
 }
 h1{
     text-align: center;
+    margin-top: 50px;
+    font-size: 50px;
 }
 table, tr, th, td{
     font-size: 20px;
@@ -98,9 +95,18 @@ table, tr, th, td{
 }
 h3{
 	   margin-left: 25px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 45px;
+    display: block;
 }
 h6{
-    margin-left: 65px;
+    margin-left: 25px;
+    font-size: 35px;
+    display: block;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    
 }
 span{
     font-size: 50px;
@@ -139,8 +145,9 @@ div#Link-to-game{
     width: 40%;
     height: 532px;
 }
-p#rules{
-    font-size: 10px;
+p.rules{
+    line-height: 200%;
+    font-size: 20px;
 }
 p{
 	width: 500px;
@@ -149,6 +156,10 @@ p{
 	padding: 10px, 20px, 30px, 40px;
 	border-radius: 50;
     font-size: 20px;
+    
+}
+div#Meet-the-players *{
+    display: block;
     
 }
 footer{
